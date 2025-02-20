@@ -4,7 +4,7 @@ options = {"h":"Hit", "s":"Stand", "d":"Doubledown"}
 options2 = {"h":"Hit", "s":"Stand"}
 #suites = ["hearts", "diamonds", "clubs", "spades"]
 
-def total_value(hand): #gör 2st
+def total_value(hand): 
     k=0
     for card in hand:
         if card in ["K", "D", "J"]:
